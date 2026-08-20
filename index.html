@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Pankaj Bhardwaj Way2Laabh | Premium VIP Community</title>
+<title>Pankaj Bhardwaj | Premium Vip Community</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,13 +12,13 @@
 :root {
   --bg-deep: #050a0f;
   --bg-card: rgba(12, 22, 31, 0.85);
-  --accent: #00ff9d;
-  --accent-light: #00e676;
+  --accent: #7c3aed;
+  --accent-light: #a78bfa;
   --text-primary: #fff;
   --text-secondary: #b0c4de;
   --text-muted: #6c7f93;
   --border-subtle: rgba(255,255,255,0.1);
-  --border-accent: rgba(0, 255, 157, 0.4);
+  --border-accent: rgba(124, 58, 237, 0.4);
 }
 
 * { margin:0; padding:0; box-sizing:border-box; font-family:"Outfit",sans-serif; }
@@ -34,45 +34,37 @@ main { width:100%; max-width:440px; margin:0 auto; padding:0 16px; display:flex;
 .wrapper {
   width:100%; background:var(--bg-card); backdrop-filter:blur(16px); border-radius:20px;
   padding:24px 18px; border:1px solid var(--border-subtle); text-align:center;
-  display:flex; flex-direction:column; gap:16px; align-items:center;
+  display:flex; flex-direction:column; gap:14px; align-items:center;
 }
 
-.profile-wrap { position:relative; width:90px; height:90px; margin:0 auto; }
-.profile { width:100%; height:100%; border-radius:50%; border:2px solid var(--accent); padding:2px; }
+.profile-wrap { position:relative; width:95px; height:95px; margin:0 auto; }
+.profile { width:100%; height:100%; border-radius:50%; border:2px solid var(--accent-light); padding:2px; }
 .profile img { width:100%; height:100%; object-fit:cover; border-radius:50%; }
 
-h1 { font-size:22px; font-weight:800; text-align:center; }
-h1 span { display:block; font-size:13px; color:var(--accent); font-weight:600; }
-.desc { font-size:13.5px; color:var(--text-secondary); line-height:1.4; text-align:center; }
+h1 { font-size:24px; font-weight:800; letter-spacing:0.5px; }
 
 .live-badge {
-  display:inline-block; padding:4px 12px; background:rgba(0,255,157,0.08);
-  border:1px solid var(--border-accent); border-radius:50px; font-size:11px; color:var(--accent-light);
+  font-size:13px; font-weight:700; color:#00ff9d; margin-top:-6px;
 }
 
 .cta-button {
   display:flex; align-items:center; justify-content:center; gap:8px; width:100%;
-  padding:14px; font-size:15px; font-weight:700; border-radius:12px;
-  background:linear-gradient(135deg, var(--accent), var(--accent-light)); color:#04120b;
-  text-decoration:none; border:none; cursor:pointer;
+  padding:15px; font-size:16px; font-weight:700; border-radius:12px;
+  background:linear-gradient(135deg, #6d28d9, #8b5cf6); color:#fff;
+  text-decoration:none; border:none; cursor:pointer; box-shadow:0 4px 15px rgba(109,40,217,0.4);
 }
 
-.feature-list { width:100%; display:flex; flex-direction:column; gap:8px; }
+.feature-list { width:100%; display:flex; flex-direction:column; gap:10px; }
 .feature {
-  background:rgba(17, 34, 51, 0.5); border:1px solid var(--border-subtle);
-  border-radius:10px; padding:10px 14px; display:flex; align-items:center; justify-content:center; gap:12px; text-align:center;
+  background:rgba(255, 255, 255, 0.04); border:1px solid var(--border-subtle);
+  border-radius:12px; padding:12px 16px; display:flex; align-items:center; justify-content:center; text-align:center;
+  font-size:13.5px; font-weight:600; color:#e2e8f0;
 }
-.feature-icon { font-size:18px; }
-.feature-text h3 { font-size:13px; color:#fff; }
-.feature-text p { font-size:11px; color:var(--text-muted); }
 
-.trust-stats {
-  width:100%; padding:12px; background:rgba(255,255,255,0.02); border-radius:10px;
-  border:1px solid var(--border-subtle); display:flex; justify-content:space-around; align-items:center;
+.highlight-box {
+  width:100%; padding:10px 12px; background:rgba(124, 58, 237, 0.1); border:1px dashed var(--border-accent);
+  border-radius:12px; font-size:11.5px; font-weight:600; color:#d8b4fe; text-align:center;
 }
-.stat-item { text-align:center; }
-.stat-num { font-size:16px; font-weight:800; }
-.stat-label { font-size:9px; color:var(--text-muted); text-transform:uppercase; }
 
 .cta-row { width:100%; display:flex; gap:8px; }
 .cta-row button {
@@ -80,7 +72,7 @@ h1 span { display:block; font-size:13px; color:var(--accent); font-weight:600; }
   border:1px solid var(--border-subtle); background:transparent; color:var(--text-secondary); cursor:pointer;
 }
 
-.footer-links { width:100%; display:flex; justify-content:center; flex-wrap:wrap; gap:12px; margin-top:4px; }
+.footer-links { width:100%; display:flex; justify-content:center; flex-wrap:wrap; gap:12px; margin-top:2px; }
 .footer-links button { background:none; border:none; color:var(--text-muted); font-size:11px; cursor:pointer; text-decoration:underline; }
 .footer-copy { font-size:10.5px; color:var(--text-muted); text-align:center; }
 
@@ -99,25 +91,6 @@ h1 span { display:block; font-size:13px; color:var(--accent); font-weight:600; }
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '1397879829112183'); fbq('track', 'PageView');
 </script>
-
-  <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1397879829112183');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1397879829112183&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-  
 </head>
 <body>
 
@@ -132,40 +105,25 @@ src="https://www.facebook.com/tr?id=1397879829112183&ev=PageView&noscript=1"
     </div>
 
     <div>
-      <h1>Pankaj Bhardwaj<span>WAY2LAABH™</span></h1>
-      <p class="desc" style="margin-top:6px;">Join <b>10,000+ Smart Members</b> for daily market insights & actionable growth strategies.</p>
+      <h1>PANKAJ BHARDWAJ</h1>
+      <div class="live-badge">35,031+ Active Members </div>
     </div>
-
-    <div class="live-badge">🟢 <span id="liveCount">247</span> viewing right now</div>
 
     <div style="width:100%;">
       <a href="https://t.me/+7sCXeRpJ10VjMjgx" target="_blank" class="cta-button" onclick="trackSub()">
-        Join Free Telegram Channel →
+        Join Telegram Channel 🚀
       </a>
-      <p style="font-size:10px; color:var(--text-muted); margin-top:6px; text-align:center;">Instant Access • Verified Community • 100% Free</p>
     </div>
 
     <div class="feature-list">
-      <div class="feature">
-        <span class="feature-icon">🚀</span>
-        <div class="feature-text">
-          <h3>Daily VIP Insights</h3>
-          <p>High-value market learning updates daily.</p>
-        </div>
-      </div>
-      <div class="feature">
-        <span class="feature-icon">📚</span>
-        <div class="feature-text">
-          <h3>Guides & E-books</h3>
-          <p>Curated materials to accelerate growth.</p>
-        </div>
-      </div>
+      <div class="feature">Nifty & BankNifty levels & Stock option calls</div>
+      <div class="feature">Daily 4-5 zero hero trade with 95% accuracy</div>
+      <div class="feature">Real-time Alerts on Telegram</div>
+      <div class="feature">24/7 Support & Guidance</div>
     </div>
 
-    <div class="trust-stats">
-      <div class="stat-item"><span class="stat-num">10K+</span><span class="stat-label">Members</span></div>
-      <div class="stat-item"><span class="stat-num">4.9 ★</span><span class="stat-label">Rating</span></div>
-      <div class="stat-item"><span class="stat-num">100%</span><span class="stat-label">Free</span></div>
+    <div class="highlight-box">
+      🎯 100% Free • Daily accurate signals • No hidden charges
     </div>
 
     <div class="cta-row">
@@ -180,10 +138,11 @@ src="https://www.facebook.com/tr?id=1397879829112183&ev=PageView&noscript=1"
       <button onclick="openModal('privacyModal')">Privacy</button>
     </div>
 
-    <div class="footer-copy">© 2026 Pankaj Bhardwaj Way2Laabh™. All Rights Reserved.</div>
+    <div class="footer-copy">© 2026 Pankaj Bhardwaj. All Rights Reserved.</div>
   </div>
 </main>
 
+<!-- Modals -->
 <div class="modal-overlay" id="contactModal">
   <div class="modal-box">
     <button class="modal-close" onclick="closeModal('contactModal')">&times;</button>
@@ -240,11 +199,6 @@ function copyLink() {
     setTimeout(function() { btn.textContent = "Copy Link"; }, 2000);
   });
 }
-
-setInterval(function() {
-  var el = document.getElementById("liveCount");
-  el.textContent = Math.floor(Math.random() * (320 - 200 + 1)) + 200;
-}, 4000);
 </script>
 
 </body>
